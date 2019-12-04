@@ -55,16 +55,10 @@ class Home extends Component {
 function mapStateToProps(state, props){
 
 
-
-
   return {
     categories: state.data.categories,
     search : state.search
 
-
-  }
-    
   
 }
-
 export default connect(mapStateToProps)(Home)
