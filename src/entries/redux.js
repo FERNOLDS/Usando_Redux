@@ -32,7 +32,7 @@ const initialState = [
 const reducer = function(state, action){
     switch (action.type){
         case "ADD_SONG":
-            return [state, {state, action.payload}]
+            return [state, {state, action,payload}]
         default:
             return state
     }
